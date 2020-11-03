@@ -1,0 +1,28 @@
+.navigation {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+.navigation ul {
+  display: flex;
+}
+
+.navigation li {
+  margin-right: 10px;
+}
+
+.navigation li:last-child {
+  margin-right: 0;
+}
+
+.navigationLink {
+  text-decoration: none;
+}
+
+.navigationLinkActive {
+  color: rgb(172, 49, 33);
+  text-decoration: underline;
+}
